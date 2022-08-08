@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+body{
+  font-family: 'Inter', sans-serif;
+  background-color: #4cc9f0;
+}
+
+.form-feild{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+  margin-left: 30%;
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.58);
+  max-width: max-content;
+  padding: 3em;
+  background-color: #ffffff;
+  border-radius: 0.9em;
+}
+.form-feild label{
+  font-size: 1.5em;
+  color: #0a0908;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.form-input input{
+  display: flex;
+  align-items: center;
+  margin: 1em;
+  font-size: 1.8em;
+  padding: 0.2em 0.5em 0.2em 0.5em ;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+#img{
+  display: none;
+}
+label:nth-child(4){
+  border: 2px solid black;
+  padding: 0.5em 4.5em 0.5em 4.5em;
+  border-radius: 0.5em;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  transition: all 0.2s;
+}
+label:nth-child(4):hover{
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.58);
+}
+.form-btn{
+  background-color: #ffffff;
+  margin-top: 1.5em;
+  font-size: 2em;
+  padding: 0.3em 4em 0.3em 4em;
+  border-radius: 0.5em;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.form-btn:hover{
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.58);
+}
