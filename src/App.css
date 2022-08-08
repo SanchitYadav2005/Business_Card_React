@@ -2,7 +2,9 @@
 
 body{
   font-family: 'Inter', sans-serif;
-  background-color: #4cc9f0;
+  background-color: #8ecae6;
+  margin: 0%;
+  padding: 0%;
 }
 
 .form-feild{
@@ -11,15 +13,15 @@ body{
   align-items: center;
   margin-top: 2em;
   margin-left: 30%;
-  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.58);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.58);
   max-width: max-content;
   padding: 3em;
-  background-color: #ffffff;
+  background-color: #73bfdc;
   border-radius: 0.9em;
 }
 .form-feild label{
   font-size: 1.5em;
-  color: #0a0908;
+  color: #212529;
   font-weight: bolder;
   cursor: pointer;
 }
@@ -31,30 +33,40 @@ body{
   padding: 0.2em 0.5em 0.2em 0.5em ;
   border-radius: 0.5em;
   cursor: pointer;
+  background-color: #73bfdc;
+  border: hidden;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.58);
 }
 #img{
   display: none;
 }
 label:nth-child(4){
-  border: 2px solid black;
   padding: 0.5em 4.5em 0.5em 4.5em;
   border-radius: 0.5em;
   margin-top: 2em;
   margin-bottom: 1.5em;
   transition: all 0.2s;
-}
-label:nth-child(4):hover{
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.58);
+  border: hidden;
 }
 .form-btn{
-  background-color: #ffffff;
+  background-color: #73bfdc;
   margin-top: 1.5em;
   font-size: 2em;
   padding: 0.3em 4em 0.3em 4em;
   border-radius: 0.5em;
   cursor: pointer;
   transition: all 0.2s;
-}
-.form-btn:hover{
+  border: hidden;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.58);
+  color: #212529;
+
+}
+.nav_heading{
+  margin: 0;
+}
+.nav_bar{
+  background-color: #8ecae6;
+  text-align: center;
+  padding: 2em;
 }
